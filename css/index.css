@@ -182,6 +182,10 @@ header nav a {
   font-size: 14px;
 }
 
+header nav a:hover {
+  color: gray;
+}
+
 .logo {
   display: inline-block;
   vertical-align: middle;
@@ -217,7 +221,7 @@ header nav a {
 
 .header-left-text {
   font-size: 72px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .header-left-btn {
@@ -226,6 +230,14 @@ header nav a {
   font-size: 17px;
   font-family: inherit;
   padding: 2px 40px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-left-btn:hover {
+  background: black;
+  color: white;
 }
 
 .features,
